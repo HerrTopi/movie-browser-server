@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "start-dev": "tsc && node dist/app.js",
+    "build": "tsc",
     "start": "node dist/app.js"
   },
   "dependencies": {

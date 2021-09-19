@@ -5,7 +5,7 @@ import routes from './api/routes/movieRoutes'
 
 const app = express()
 
-const allowedOrigins = ['http://movie-browser-client.herokuapp.com', 'http://localhost:3000'];
+const allowedOrigins = ['https://movie-browser-client.herokuapp.com', 'http://localhost:3000'];
 
 app.use(cors({
     origin(origin, callback) {
