@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const movieRoutes_1 = __importDefault(require("./api/routes/movieRoutes"));
 const app = express_1.default();
-const allowedOrigins = ['https://erste.eszkozleltar.com', 'http://localhost:3000'];
+const allowedOrigins = ['https://movie-browser-client.herokuapp.com', 'http://localhost:3000'];
 app.use(cors_1.default({
     origin(origin, callback) {
         if (!origin)
